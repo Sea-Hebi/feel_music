@@ -18,5 +18,5 @@ localStorage.setItem('visits', visits);
 
 const visitCounter = document.getElementById('visit-counter');
 if (visitCounter) {
-  visitCounter.textContent = `이 페이지에 ${visits}번 방문하셨습니다.`;
+  visitCounter.textContent = `이 사이트에서 ${visits}번 클릭하셨습니다.`;
 }
