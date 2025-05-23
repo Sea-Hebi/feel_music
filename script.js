@@ -10,3 +10,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+// 방문 횟수 카운트 기능
+let visits = localStorage.getItem('visits');
+visits = visits ? parseInt(visits) + 1 : 1;
+localStorage.setItem('visits', visits);
+
+const visitCounter = document.getElementById('visit-counter');
+if (visitCounter) {
+  visitCounter.textContent = `이 페이지에 ${visits}번 방문하셨습니다.`;
+}

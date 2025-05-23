@@ -58,6 +58,13 @@ body.calm {
   z-index: 9999;
 }
 
+.visit-counter {
+  margin-left: auto;
+  font-size: 14px;
+  color: #555;
+  padding-left: 20px;
+}
+
 .logo img {
   width: 40px;
   height: 40px;
