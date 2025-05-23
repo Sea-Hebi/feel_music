@@ -20,7 +20,7 @@ body.index_main {
 }
 
 body.happy {
-  background-image: url('images/happy_back.PNG');
+  background-image: url('happy_back.PNG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body.happy {
 }
 
 body.sad {
-  background-image: url('images/sad_back.PNG');
+  background-image: url('sad_back.PNG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body.sad {
 }
 
 body.calm {
-  background-image: url('images/calm_back.PNG');
+  background-image: url('calm_back.PNG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
